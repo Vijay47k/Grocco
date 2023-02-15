@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Website</title>
+    <link rel="icon" href="./images/favicon.avif">
+    <link rel="stylesheet" href="css/style.css">
+<!--FontAwasome  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <div class="fas fa-bars hidden" id="menu-btn"></div> 
+         <a class="header-brand" href="#"><i class="fa-solid fa-basket-shopping"></i>Vegi<span id="logo">best<span></a>
+         <div class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li> 
+                <li><a href="#our-features">Features</a></li>
+                <li><a href="#our-products">Products</a></li>
+                <li><a href="#our-categories">Categories</a></li>
+                <li><a href="#review">Review</a></li>  
+            </ul>
+         </div>
+     <div class="icons">
+        <div class="fas fa-search hidden" id="search-btn"></div>
+        <input type="text" placeholder="Search" id="search">
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+<!-- Click actions -->
+
+    <div class="navbar-logo">
+        <ul>
+            <li><a href="#">Home</a></li> 
+            <li><a href="#our-features">Features</a></li>
+            <li><a href="#our-products">Products</a></li>
+            <li><a href="#our-categories">Categories</a></li>
+            <li><a href="#review">Review</a></li>  
+        </ul>
+     </div>
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+    <div class="cart">
+        <div class="box">
+            <img src="./images/carrot.png" alt="">  
+            <div class="rate">
+                <h3>carrot</h3>
+                <h4>$4.99 /</h4>
+                <h4> qty : 1</h4>
+            </div>
+            <i class="fas fa-trash"></i>
+        </div>
+        <div class="box">
+            <img src="./images/red-onion.png" alt="">  
+            <div class="rate">
+                <h3>carrred-onionot</h3>
+                <h4>$4.99 /</h4>
+                <h4> qty : 1</h4>
+            </div>
+            <i class="fas fa-trash"></i>
+        </div>
+        <div class="box">
+            <img src="./images/potato.png" alt="">  
+            <div class="rate">
+                <h3>potato</h3>
+                <h4>$4.99 /</h4>
+                <h4> qty : 1</h4>
+            </div>
+            <i class="fas fa-trash"></i>
+        </div>
+        <div class="total"> total : $15.69/- </div>
+        <button class="btn">Checkout</button>
+    </div>
+
+<!-- Login -->
+
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forgot your password <a href="#">click here</a></p>
+        <p>don't have an account <a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+</header>
+
+<!--Section-->
+
+<section class="section1">
+    <img src="./images/banner.jpg" alt="">
+    <div class="content">
+        <h1 class="title">Fresh And <span>Organic</span> Products For You</h1>
+        <p class="c-text">Everyone loves a great deal.We’re here to serve only the best products for you.</p>
+        <button class="btn">Shop Now</button>
+    </div>
+    <h1 id="our-features"> Our <span>Features</span></h1>
+</section>
+
+<!-- Section 2 -->
+
+<section class="box-container">
+    <div class="line"></div>
+    <div class="box-item">
+        <img src="./images/feature-img-1.png" alt="">
+        <h3>Fresh And Organic</h3>
+        <p>All your daily needs can be found at the supermarket. Grab all your ingredients here!</p>
+        <button class="btn">Read More</button>
+    </div>
+    <div class="box-item">
+        <img src="./images/feature-img-2.png" alt="">
+        <h3>Free & Fast Delivery</h3>
+        <p>Fall in love with our service. Your package in our safe hands True to service.fast delivery</p>
+        <button class="btn">Read More</button>
+    </div>
+    <div class="box-item">
+        <img src="./images/feature-img-3.png" alt="">
+        <h3>Easy Payments</h3>
+        <p>The Best Thing You Ever Had In Your Wallet. Create New Memories With Us</p>
+        <button class="btn">Read More</button>
+    </div>
+</section>
+
+<!-- Section 3 -->
+
+<h1 id="our-products"> Our <span>Products</span></h1>
+<section class="product-container">
+    <div class="product-item">
+        <img src="./images/carrot.png" alt="">
+        <h3>carrot</h3>
+        <p> $3.99/- - 8.99/- </p>
+        <div class="stars">
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star-half-alt"></i>
+        </div>
+        <button class="btn">add to cart</button>
+    </div>
+    <div class="product-item">
+        <img src="./images/red-onion.png" alt="">
+        <h3>red-onion</h3>
+        <p> $4.99/- - 5.99/- </p>
+        <div class="stars">
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star-half-alt"></i>
+        </div>
+        <button class="btn">add to cart</button>
+    </div>
+    <div class="product-item">
+        <img src="./images/cabbage.png" alt="">
+        <h3>cabbage</h3>
+        <p> $1.99/- - 6.99/- </p>
+        <div class="stars">
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star-half-alt"></i>
+        </div>
+        <button class="btn">add to cart</button>
+    </div>
+    <div class="product-item">
+        <img src="./images/tomato.png" alt="">
+        <h3>tomato</h3>
+        <p> $5.99/- - 10.99/- </p>
+        <div class="stars">
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star-half-alt"></i>
+        </div>
+        <button class="btn">add to cart</button>
+    </div>
+    <div class="product-item">
+        <img src="./images/potato.png" alt="">
+        <h3>potato</h3>
+        <p> $2.99/- - 6.99/- </p>
+        <div class="stars">
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star-half-alt"></i>
+        </div>
+        <button class="btn">add to cart</button>
+    </div>
+    <div class="product-item">
+        <img src="./images/red-chili.png" alt="">
+        <h3>red-chili</h3>
+        <p> $3.99/- - 5.99/- </p>
+        <div class="stars">
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star-half-alt"></i>
+        </div>
+        <button class="btn">add to cart</button>
+    </div>
+</section>
+
+<!-- Section 4 -->
+
+<h1 id="our-categories"> Product<span>Categories</span></h1>
+<section class="categories-container">
+    <div class="categary-item">
+        <img src="./images/dairy-products.png" alt="">
+        <h3>Dairy Products</h3>
+        <p>Upto 45% Off </p>
+        <button class="btn">shop now</button>
+    </div>
+    <div class="categary-item">
+        <img src="./images/fruits.png" alt="">
+        <h3>Fresh Fruits</h3>
+        <p>Upto 67% Off </p>
+        <button class="btn">shop now</button>
+    </div>
+    <div class="categary-item">
+        <img src="./images/vegitable.png" alt="">
+        <h3>vegitable</h3>
+        <p>Upto 65% Off </p>
+        <button class="btn">shop now</button>
+    </div>
+    <div class="categary-item">
+        <img src="./images/frsh-meat.png" alt="">
+        <h3>Fresh Meat</h3>
+        <p>Upto 50% Off </p>
+        <button class="btn">shop now</button>
+    </div>
+</section>
+
+<!--  Review's  -->
+
+<h1 id="review"> customer's<span>Review</span></h1>
+<section class="review-container">
+    <div class="line2"></div>
+    <div class="review-item">
+        <img src="./images/customer-1.jpg" alt="">
+        <p>Christopher Robert Evans is an American actor, film producer, and director.</p>
+        <div class="stars">
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star-half-alt"></i>
+            <h3>chris evans</h3>
+        </div>
+    </div>
+    <div class="review-item">
+        <img src="./images/customer-3.jpg" alt="">
+        <p> robert downey jr is an American actor, film producer, and director.</p>
+        <div class="stars">
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star-half-alt"></i>
+            <h3>robert downey jr </h3>
+        </div>
+    </div>
+    <div class="review-item">
+        <img src="./images/customer-2.jpg" alt="">
+        <p>chris hemsworth is an American actor, film producer, and director.</p>
+        <div class="stars">
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star"></i>
+            <i class="fas starts fa-star-half-alt"></i>
+            <h3>chris hemsworth</h3>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+
+<section class="footer">
+    <div class="about">
+        <div class="subcribe">
+            <a class="footer-brand" href="#"><i class="fa-solid fa-basket-shopping"></i>Vegi<span id="logo">best<span></a>
+            <p>Subscribe to email alerts. We promise not to spam your inbox.</p>
+            <input type="text" id="email-input" placeholder="Email Address*">
+            <button type="button" id="subcribe-btn">SUBCRIBE</button>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+    </div>
+    <div class="contact-info">
+        <h3>contact info</h3>
+        <a href="#" class="links"><i class="fas fa-phone"></i>+123-456-7890 </a>
+        <a href="#" class="links"><i class="fas fa-phone"></i>+111-222-3333 </a>
+        <a href="#" class="links"><i class="fas fa-envelope"></i>groco@gmail.com </a>
+        <a href="#" class="links"><i class="fas fa-map-marker-alt"></i>chennai, india</a>
+    </div>
+    <div class="Social">
+        <h3>We accept</h3>
+        <img src="images/payments.png" alt="">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, saepe.</p>
+    </div>   
+</section>
+
+<div class="credit"> created by <span id="name"> Vijay </span> | © all rights reserved </div>
+
+<script src="./js/script.js"></script>
+</body>
+</html>
